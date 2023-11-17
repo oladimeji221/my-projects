@@ -1,0 +1,1372 @@
+/* HEADER SECTION */
+
+.navbar-top {
+    background-color: #081124;
+    padding: 15px 0; 
+    text-align: center;
+    margin: 0;
+    height: 57px;
+    width: 100%;
+   
+}
+
+.navbar-bottom {
+    background-color:  #101826;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0;
+    border: 0;    
+    width: 100%;
+}
+
+.navbar-buttons a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+ 
+}
+
+#navbar-toggler {
+    position: relative;
+}
+
+.navbar-toggler-icon {
+    position: absolute;
+    left: 90%;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+  
+}
+
+.top-container {
+    margin-left: 10px;
+    width: 100%;
+}
+
+.col-2 a{
+    margin-left: 1.5rem;
+}
+
+.col-10 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 10px; 
+}
+
+.navbar-nav .nav-link.upcoming-matches{
+    margin-left: 40px;
+}
+
+.navbar-nav .nav-link.how-it-works {
+    margin-right: 21rem; 
+}
+
+
+/* UPPER SECTION */
+.upper-section li{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 15px;
+    display: block;
+}
+.upper-section i {
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+}
+.upper-section a{
+    text-decoration: none;
+    color: white;
+}
+
+/* CROSSSING CONTAINER */
+.cross-container {
+    padding: 10px;
+    position: absolute;
+    top: 1px;
+    right:5px;
+    margin-right: 320px;
+    width: 270px;
+    height: 131px;
+    background-color:#002677;
+    justify-content: center;
+}
+
+.present-match{
+    padding-top: 15px;
+      display: flex;
+  }
+  .present-match p{
+      margin-bottom: 0;
+      color: red;
+      font-size: 10px;
+      padding-left: 15px;
+      padding-top: 5px;
+  }
+  .present-match h6{
+      color: white;
+      font-size: 11px;
+      padding-left: 5px;
+      padding-top: 5px;
+  }
+  
+  .match{
+      margin-top: 5px;
+  }
+  .team-1{
+      text-align: center;
+      width: 100px;
+  }
+  
+  .club-name{
+      margin-top: 10px;
+  }
+  .team-1 h6{
+      font-size: 10px;
+      color: white;
+      padding-left: 10px;
+  }
+  
+  .club-img{
+      display: flex;
+  }
+
+  .team-2{
+      text-align: center;
+      width: 100px;
+  }
+  
+  .team-2 h6{
+      color: white;
+      font-size: 10px;
+      padding-left: 15px;
+  }
+
+  .versus h6{
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      color: white;  
+  }
+  
+  .club-logo-1{
+    color: white;
+    padding-left: 40px;
+    font-size: 20px;
+  }
+
+
+/* JOIN TOURNAMENT */
+.join-tournament{
+    background-color:  #101826;
+    height: 700px;
+    width: 100%;
+
+}
+
+.left-card-img{
+    width: 600px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 130px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.left-card p{
+    color: white;
+    margin-left: 30px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 0;
+}
+
+.left-card .blue-btn-nav{
+    background: blue;
+    border-radius: 8px;
+    padding : 10px 20px;
+    margin-left: 30px;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.left-card i{
+    margin-left: 10px;
+}
+
+.right-card-img{
+    width: 556px;
+    height: 602px;
+    margin-top: 60px;
+}
+
+
+/* UPCOMING MATCHES */
+
+.upcoming-today-matches{
+    background-color:  #101826;
+}
+.upcoming-match{
+    background-color: #001F47;
+    width: 700px;
+    height: 650px; 
+    margin-top: 80px;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.upcoming-match h3{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-top: 70px;
+    font-size: 30px;
+    line-height: 29px;
+}
+
+.matches-date{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.nav-button {
+    background-color: #3D5586;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 7px 15px;
+    margin: 0;
+    margin-right: 10px;
+    
+}
+
+
+.active {
+    background-color: blue;
+}
+
+
+.nav-button:hover {
+    background-color:blue;
+}
+
+.game {
+    display: flex;
+    align-items: center; 
+}
+
+.game-pad{
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.game p{
+    color: white;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-top: 50px;
+
+}
+
+.description-icons{
+    padding-left: 30px;
+    padding-top: 40px;
+    display: flex;
+    
+}
+
+.description-icons  a{
+    color: white; 
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 15px;
+    justify-content: space-between;
+    padding-right: 20px;
+    opacity: 0.8;
+    
+}
+
+.description-icons i{
+    margin-right: 7px;
+    color: white;
+    margin-left: 10px;
+
+}
+
+.description-icons .vertical-line1{
+    width: 2px;
+    height: 25px;
+    background-color:#314163;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.description-icons .vertical-line2{
+    width: 2px;
+    height: 25px;
+    background-color:#314163;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.description-icons .vertical-line3{
+    width: 2px;
+    height: 25px;
+    background-color:#314163;
+    margin-right: 15px;
+    margin-left: px;
+}
+
+.today-match{
+    background-color: #232E45;
+    align-self: center;
+    margin-left: 30px;
+    margin-top: 15px;
+    display: flex;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.today-match .centered-text{
+    padding: 0;
+    margin: 0;
+}
+
+.today-match .centered-text h4{
+    padding-left: 0;
+    padding-top: 0;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.today-match h4{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.today-match .logo-1{
+    width: 34px;
+    height: 34px;
+   margin-top: 10px;
+}
+
+.logo-1-text{
+color: white;
+font-size: 10px;
+margin-top: 10px;
+opacity: 0.5;
+
+}
+
+.phase-1{
+    width: 100px;
+}
+
+.phase-2{
+    text-align: center;
+    margin-right: 0;
+    width: 50px;
+}
+
+.phase-3{
+    text-align: center;
+    margin-left: 0;
+    width: 50px;
+}
+
+.phase-4{
+    text-align: center;
+    margin-left: 10px;
+    width: 90px;
+}
+
+.phase-4 h4{
+    color: white;
+    font-size: 17px;
+    margin-bottom: -10px;
+    padding-bottom: 0;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.phase-4 small{
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 0;
+    font-size: 10px;
+    margin-left: 40px;
+}
+
+.phase-5{
+    margin-left: 25px;
+    width: 150px;
+    
+}
+
+.phase-5 h4{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.phase-6{
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.phase-6 a{
+    background: #AF3A61;
+    border-radius: 8px;
+    padding : 10px 10px;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.upcoming-img{
+    background-image: url(img/football-field-wallpapers\ 1.png);
+    height: 650px;
+    width: 550px;
+    margin-top: 80px;
+    padding: 0;
+    margin-right: 0;
+}
+
+
+
+/* DOWNLOAD OUR APP  */
+
+.app-download{
+    background-color:   #101826;
+    height: 800px;
+}
+
+.left-download-section{
+    margin-left: 100px;
+    margin-right: 0;
+    width: 500px;
+    margin-top: 100px;
+}
+
+.left-download-section .phone{
+    width: 325px;
+    height: 650px;
+    margin-left: 100px;
+}
+
+.right-download-section{
+    margin-top: 100px;
+}
+
+.right-download-section .download-img{
+    width: 391px;
+    height: 100px;
+    margin-top: 150px;
+}
+
+.right-download-section p{
+    color: white;
+    padding-top: 40px;
+}
+
+.download-btn{
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+.download-btn .apple-btn{
+    width: 167px;
+    height: 50px;
+}
+
+.download-btn .google-btn{
+    width: 167px;
+    height: 50px;
+    margin-right: 30px;
+}
+
+/* FEATURES SECTION  */
+.features-bg{
+    background-color:  #101826;
+}
+
+#features-section .features{
+    background-image: url(img/features-background.png);
+    height: 700px;
+    width: 100%;
+}
+
+.features h3{
+    text-align: center;
+    color: #2F4762;
+    padding-top: 200px;
+    
+}
+
+.features-of-soccer{
+margin-left: 250px;
+}
+
+.live-match{
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 330px;
+    padding-left: 35px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.live-match h1{
+    color: #001F47;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.team-selection{
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 330px;
+    padding-left: 35px;
+    margin-top: 30px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.team-selection h1{
+    color: #001F47;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.earn-trophy{
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 330px;
+    padding-left: 35px;
+    margin-top: 30px;
+    border-radius: 8px;
+    margin-left: 20px; 
+}
+
+.earn-trophy h1{
+    color: #001F47;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+
+
+
+/* BECOME A GLADIATOR */
+
+.steps-section{
+    justify-content: center;
+    background-color: white;
+}
+
+.steps-section .steps-img{
+    background-image: url(img/Mask\ Group.png);
+    background-repeat: no-repeat;
+    width: 413px;
+    height: 650px;
+   
+}
+
+.steps-section .steps{
+    width: 910px;
+    height: 650px;
+    padding-left: 0;
+}
+
+
+.steps .floating-container{
+    width: 478px;
+    height: 250px;
+    background-image: url(img/Group\ 2197.png);
+    margin-left: 0;
+    padding-left: 0;
+    position: absolute;
+    left: 320px;
+    margin-right: 0;
+    
+}
+
+.steps .social-container{
+    height:250px;
+    width: 500Px;
+    margin-right: 0;
+}
+
+.social-container h3{
+    font-family: sans-serif;
+    color: #313863;
+    font-size: x-large;
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.social-container  .youtube-icon{
+    margin-left: 50px;
+}
+
+.social-container a{
+    margin-right: 10px;
+}
+
+.social-container i{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.step-1 ,.step-2 ,.step-3 , .step-4 {
+    margin-left: 200px;
+    margin-top: 35PX; 
+    text-align: justify;
+    width: 200px;
+    height: 150px;
+}
+
+.step-1 i{
+    color: #30379F;
+    font-size: 40px;
+    position: absolute;
+    left: 36rem;
+}
+
+.step-2 i{
+    color: #30379F;
+    font-size: 40px;
+    position: absolute;
+    left: 36rem;
+}
+
+.step-3 i{
+    color: #30379F;
+    font-size: 40px;
+    position: absolute;
+    left: 61rem;
+}
+
+.step-4 i{
+    color: #30379F;
+    font-size: 40px;
+    position: absolute;
+    left: 61rem;
+}
+
+.step1-3 h6{
+    color:#30379F;
+    padding: 5px  0;
+}
+
+.step2-4 h6{
+    color:#30379F;
+    padding: 5px  0;
+}
+
+.word1{
+    color: #30379F;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.word2{
+    color: #FF4572;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+
+
+/*  REAL STORIES FROM OUR GAMERS  */
+.stories-bg{
+    height: 900px;
+    width: 100%;
+    background-color: #202833;
+
+}
+
+.comments-section1 .quotation-mark{
+    width: 126px;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 140px;
+ 
+}
+
+.comments-section1 h1{
+    color: #FFFFFF;
+    margin-left: 230px;
+    position: relative;
+    bottom: 50px;
+}
+
+.comments-section1 .section-description{
+    color: #FFFFFF;
+    margin-left: 240px;
+    position: relative;
+    bottom: 50px;
+}
+
+.comments{
+    background-color: white;
+    height: 300px;
+    width: 280px;
+    border-radius: 8px;
+    margin-left: 23rem;
+    margin-top: 40px ;
+    text-align: justify;
+}
+
+.comments-2{
+    height: 300px;
+    width: 280px;
+    border-radius: 8px;
+    margin-top: 170px;
+    background-color: white;
+    text-align: justify;
+}
+
+.comments-3{
+    background-color: white;
+    height: 300px;
+    width: 280px;
+    border-radius: 8px;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+ .comment-description{
+    padding: 0 25px;
+    padding-top: 20px;
+    font-size: small;
+}
+
+.comments img{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.comments-2 img{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.comments-3 img{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.name{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 25px;
+}
+
+.gamer{
+    margin-left: 25px;
+    font-size: 10px;
+    font-family: sans-serif;
+    padding-top: 0;
+}
+
+
+/* CUSTOMISE YOUR TEAM  */
+.customise-bg{
+    height: 900px;
+    background-color: #101826;
+}
+
+.customise-text{
+    padding-top: 60px;
+
+}
+
+.customise-text h1{
+    color: white;
+    padding-left: 70px;
+   
+}
+
+.jersey-1{
+    width: 158px;
+    height: 450px;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+.jersey-1 .jersey-pic1{
+    width: 158px;
+    height: 450px;
+}
+
+.jersey-2{
+    width: 380px;
+    height: 800px;
+    padding-right: 0;
+
+}
+
+.jersey-2 .jersey-pic2{
+    width: 380px;
+    height: 750px;
+}
+
+.jersey-3{
+    width: 230px;
+    height: 500px;
+    margin-top: 120px;
+    padding-left: 0;
+    position: relative;
+    right: 50px;
+    
+}
+
+.jersey-3 .jersey-pic3{
+    width: 230px;
+    height: 460px;
+    margin-left: 0;
+
+}
+
+.customise-content{
+    width: 400px;
+    height: 250px;
+    margin-top: 300px;
+   position: relative;
+   right: 50px;
+}
+
+.customise-content .content-1{
+    height: 250px;
+    width: 363px;
+}
+
+
+/* MOBILE APP SECTION  */
+
+.mobile-app-section{
+    height: 300px;
+    background-color: #202833;
+}
+
+.mobile-app-section .download-soccer {
+    width: 400px;
+    margin-left: 100px;
+    margin-right: 50px;
+
+}
+
+.download-soccer h3{
+    color: white;
+    padding-top: 60px;
+    font-size: 35px;
+}
+
+.download-soccer p{
+    color: white;
+    text-align: justify;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.mobile-app-img{
+    display: flex;
+}
+
+.first-img .app-img1{
+    width: 189px;
+    height: 270px;
+}
+
+.second-img{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.second-img .app-img2{
+    width: 195px;
+    height: 250px;
+    
+}
+
+/* FOOTER section  */
+.footer{
+    height: 250px;
+    background-color: #101826;
+}
+
+.footer .footer-logo-section1{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 300px;
+    margin-right: 100px;
+}
+
+.footer-logo-section1 p{
+    padding-top: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.footer-logo-section2{
+    text-align: center;
+    margin-top: 70px;
+    margin-right: 100px;
+    padding-left: 30px;
+    width: 500px;
+    margin-left: px;
+}
+
+.footer-logo-section2 a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    padding-right: 15px;
+    margin-left: 10px;
+    
+}
+
+.footer-logo-section2 p{
+    color: white;
+    padding-top: 10px;
+    padding-right: 70px;
+   
+}
+
+.footer-logo-section3 h4{
+    color: white;
+    text-align: justify;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+
+.footer-logo-section3{
+    margin-left: 50px;
+    margin-right: 0;
+    padding: 0;
+    width: 200px;
+}
+
+.footer-logo-section3 .footer-download-btn1{
+    width: 168px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.footer-logo-section3 .footer-download-btn2{
+    width: 168px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.footer-section-block-square {
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media  (max-width: 1170px) {
+    .cross-container {
+        display: none;
+    }
+}
+
+
+
+@media  (min-width: 1396px){
+    .navbar-nav .nav-link.how-it-works{
+        margin-right: 0;
+    }
+}
+
+@media  (max-width: 1170px){
+    .navbar-nav .nav-link.how-it-works{
+        margin-right: 0;
+    }
+}
+
+
+@media (max-width: 740px) {
+
+    .join-tournament{
+        background-color:  #101826;
+        height: 1000px;
+        width: 100%;
+    }
+
+    
+    .right-card-img{
+        width: 369px;
+        height: 400px;
+        margin-top: 60px;
+    }
+
+    /* UPCOMING MATCHES  */
+    .upcoming-img{
+        display: none;
+    }
+    .upcoming-match{
+        background-color: #001F47;
+        width: 700px;
+        height: 600px; 
+        margin-top: 20px;
+        padding: 0;
+        margin-left: 20px;
+    }
+    
+    /* DOWNLOAD OUR APP  */
+    
+    .left-download-section{
+    margin-left: 100px;
+    margin-right: 0;
+    width: 500px;
+    margin-top: 5e0px;
+    }
+
+   .left-download-section .phone{
+    width: 200px;
+    height: 400px;
+    margin-top: 10px;
+   }
+
+   
+    .right-download-section{
+        margin-left: 150px;
+        margin-top: 10px;
+    }
+
+    .right-download-section .download-img{
+        margin-top: 10px;
+    }
+
+
+    .live-match {
+        height: 300px;
+        width: 400px;
+        margin-left: 100px;
+    }
+
+    .team-selection{
+        height: 300px;
+        width: 400px;
+        margin-left: 100px;
+    }
+
+    .earn-trophy{
+        height: 300px;
+        width: 400px;
+        margin-left: 100px;
+    }
+
+    .features-bg{
+        height: 1300px;
+    }
+
+    .features-of-soccer{
+        margin-left: 10px;
+    }
+        #features-section .features{
+            background-image: url(img/features-background.png);
+            height: 1300px;
+            width: 100%;
+    }
+    
+    /* BECOME A GLADIATOR */
+    .steps-section .steps-img{
+      display: none;
+    }
+    
+    .steps .floating-container{
+        width: 400px;
+        height: 250px;
+        background-image: url(img/Group\ 2197.png);
+        margin-left: 0;
+        padding-left: 0;
+        position: absolute;
+        left: 0;
+        
+    }
+    .steps .social-container{
+        height:200px;
+        width: 400Px;
+        margin-right: 0;
+        margin-left: 350px;
+    }
+    .social-container h3{
+        font-family: sans-serif;
+        color: #313863;
+        font-size: large;
+        padding-top: 70px;
+        padding-left: 50px;
+        padding-bottom: 10px;
+    }
+    
+    .step-1 ,.step-2 ,.step-3 , .step-4 {
+        margin-left: 100px;
+        margin-top: 50PX; 
+        text-align: justify;
+        width: 200px;
+        height: 150px;
+    }
+    
+    .step-1 i{
+        color: #30379F;
+        font-size: 40px;
+        position: absolute;
+        left: 3rem;
+    }
+    .step-2 i{
+        color: #30379F;
+        font-size: 40px;
+        position: absolute;
+        left: 3rem;
+    }
+    .step-3 i{
+        color: #30379F;
+        font-size: 40px;
+        position: absolute;
+        left: 22rem;
+    }
+    .step-4 i{
+        color: #30379F;
+        font-size: 40px;
+        position: absolute;
+        left: 22rem;
+    }
+
+    /* REAL STORIES */
+    .stories-bg{
+        height: 1300px;
+    }
+    .comments-2-3{
+
+    }
+    .comments-section1 .quotation-mark{
+        width: 63px;
+        height: 50px;
+        margin-top: 50px;
+        margin-left: 50px;
+     
+    }
+    .comments-section1 h1{
+        color: #FFFFFF;
+        margin-left: 100px;
+        position: relative;
+        bottom: 50px;
+        padding-top: 30px;
+        font-size: 25px;
+    }
+    .comments-section1 .section-description{
+        color: #FFFFFF;
+        margin-left: 100px;
+        position: relative;
+        bottom: 50px;
+        font-size: 15px;
+    }
+    .comments{
+        background-color: white;
+        height: 300px;
+        width: 400px;
+        border-radius: 8px;
+        margin-left:10rem;
+        margin-top: 40px ;
+        text-align: justify;
+    }
+    .comments-2{
+        height: 300px;
+        width: 400px;
+        border-radius: 8px;
+        margin-top: 50px;
+        background-color: white;
+        text-align: justify;
+        margin-left: 160px;
+    }
+    
+    .comments-3{
+        background-color: white;
+        height: 300px;
+        width: 400px;
+        border-radius: 8px;
+        margin-top: 50px;
+        text-align: justify;
+        margin-left: 160px;
+    }
+
+    /* CUSTOMISE YOUR TEAM  */
+    .customise-text h1{
+        color: white;
+        padding-left: 20px;
+       
+    }
+    .jersey-1{
+        width: 105px;
+        height: 300px;
+        margin-top: 120px;
+        margin-left: 100px;
+    }
+    .jersey-1 .jersey-pic1{
+        width: 105px;
+        height: 300px;
+    }
+    
+    .jersey-2{
+        margin-top: 45px;
+        width: 239px;
+        height: 470px;
+        padding-right: 0;
+    
+    }
+    .jersey-2 .jersey-pic2{
+        width: 239px;
+        height: 470px;
+    }
+    .jersey-3{
+        width: 150px;
+        height: 300px;
+        margin-top: 120px;
+        padding-left: 0;
+        position: relative;
+        right: 50px;
+        
+    }
+    
+    .jersey-3 .jersey-pic3{
+        width: 155px;
+        height: 310px;
+        margin-left: 0;
+    
+    }
+    .customise-content{
+        width: 300px;
+        height: 200px;
+        margin-top: 0;
+        position: relative;
+        right: 0;
+        margin-left: 200px;
+
+    }
+    .customise-content .content-1{
+        height: 200px;
+        width: 300px;
+    }
+    .first-img .app-img1{
+        width: 140px;
+        height: 200px;
+        padding-left: 0;
+    }
+    
+    .second-img .app-img2{
+      display: none;
+
+    }
+    .mobile-app-section .download-soccer {
+        width: 400px;
+        margin-left: 40px;
+        margin-right: 0;
+    
+    }
+    .mobile-app-img{
+        width: 200px;
+    }
+}
+   
+
+@media (max-width: 740px) {
+    /* FOOTER SECTION  */
+    .footer-logo{
+        width: 177px;
+        height: 56px;
+    }
+    .footer .footer-logo-section1{
+        margin-top: 20px;
+        margin-left: 10px;
+        display: flex;
+        width: 100%;
+    }
+    .footer-logo-section1 p{
+      padding-left: 90px;
+      padding-top: 10px;
+    }
+    .footer-logo-section2{
+        text-align: justify;
+        margin-top: 10px;
+        margin-left: 110px;
+        padding-left: 0;
+    }  
+    .footer-logo-section2 p{
+        padding-top: 10px;
+        padding-right: 0x;
+        margin-left: 50px;
+       
+    }
+    
+    .footer-logo-section3 h4{
+        padding-top: 40px;
+        padding-left: 170px;
+    
+    }
+    .footer-logo-section3{
+        margin-left: 90px;
+        margin-right: 0;
+        padding: 0;
+        width: 500px;
+    }
+    .footer{
+        height: 350px;
+    }
+}
+
+@media (max-width: 390px) {
+    .today-match{
+        width: 100%;
+    }
+}
